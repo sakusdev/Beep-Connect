@@ -22,6 +22,19 @@ npm run dev
 
 Microphone access requires HTTPS or localhost.
 
+## Cloudflare Pages
+
+Beep-Connect is intended to be hosted on Cloudflare Pages.
+
+Use these project settings:
+
+- Production branch: `main`
+- Build command: `npm run build`
+- Build output directory: `dist`
+- Root directory: `/`
+
+Every push to `main` can deploy automatically through Cloudflare's GitHub integration. See [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md).
+
 ## Project principles
 
 - independent design and implementation
